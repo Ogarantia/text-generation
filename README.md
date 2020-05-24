@@ -1,4 +1,4 @@
-# Text Generation With LSTM Recurrent Neural Networks using Keras
+# Text Generation with LSTM Recurrent Neural Networks using Keras
 
 Last Page Update: **23/05/2020**
 

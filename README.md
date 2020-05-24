@@ -8,10 +8,10 @@ Last Page Update: **23/05/2020**
  
  Last Page Update: **23/05/2020**
  
- Prerequisites (my environments)
+ # Prerequisites (my environments)
  
- .Python 3.8.3 
+ * Python 3.8.3 
  
- .Tensorflow-gpu 1.13.1
+ * Tensorflow-gpu 1.13.1
  
- .Keras 2.3.1 
+ * Keras 2.3.1 

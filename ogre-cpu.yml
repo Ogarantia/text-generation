@@ -1,0 +1,21 @@
+path: .
+web: True
+jupyter: False
+jupyter_password: ogre123
+jupyter_port: 8888
+docker:
+  company: ogre
+  version: 0.1.0
+  baseimage: tensorflow/tensorflow:1.15.5-py3
+  device: cpu
+  container_repo: ghcr.io
+  project_volume_path: /opt
+  cmd: bash 
+  ttyd: ttyd
+  ttyd_version: 1.6.3
+  ttyd_url: https://github.com/tsl0922/ttyd/releases/download/
+  ttyd_port: 6007
+  ogre_dir: ogre_dir
+  requirements_format: poetry
+  expose_ports: 8888
+  no_cache: True

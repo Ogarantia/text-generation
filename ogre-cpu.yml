@@ -1,21 +1,24 @@
 path: .
-web: True
-jupyter: False
+web: False
+jupyter: True
 jupyter_password: ogre123
-jupyter_port: 8888
+jupyter_port: "8001"
+mount: True
+api_url: https://api.ogre.run
+api_token: bonjour
 docker:
-  company: ogre
+  company: ogarantia
   version: 0.1.0
   baseimage: tensorflow/tensorflow:1.15.5-py3
   device: cpu
-  container_repo: ghcr.io
+  container_repo: ogre
   project_volume_path: /opt
-  cmd: bash 
+  cmd: bash
   ttyd: ttyd
   ttyd_version: 1.6.3
   ttyd_url: https://github.com/tsl0922/ttyd/releases/download/
   ttyd_port: 6007
   ogre_dir: ogre_dir
-  requirements_format: poetry
-  expose_ports: 8888
+  requirements_format: pip
+  expose_ports: 8001
   no_cache: True

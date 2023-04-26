@@ -5,11 +5,12 @@ jupyter_password: ogre123
 jupyter_port: "8001"
 mount: True
 api_url: https://api.ogre.run
-api_token: bonjour
+api_token: your_ogre_api_token
+openai_token: your_openai_api_token
 docker:
   company: ogarantia
   version: 0.1.0
-  baseimage: tensorflow/tensorflow:1.15.5-py3
+  baseimage: python:3.7
   device: cpu
   container_repo: ogre
   project_volume_path: /opt
@@ -19,6 +20,6 @@ docker:
   ttyd_url: https://github.com/tsl0922/ttyd/releases/download/
   ttyd_port: 6007
   ogre_dir: ogre_dir
-  requirements_format: pip
+  requirements_format: auto
   expose_ports: 8001
   no_cache: True

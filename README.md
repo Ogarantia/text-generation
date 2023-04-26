@@ -11,3 +11,5 @@ This project allows you to train a simple Long Short-Term Memory to learn sequen
 * Tensorflow 1.15.5
 
 * Keras 2.3.1
+
+* protobuf 3.20.3

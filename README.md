@@ -6,7 +6,7 @@ This project allows you to train a simple Long Short-Term Memory to learn sequen
 
 ## Prerequisites
 
-* Python 3.8
+* Python 3.7
 
 * Tensorflow 1.15.5
 
